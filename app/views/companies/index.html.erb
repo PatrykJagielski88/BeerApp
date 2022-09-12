@@ -1,0 +1,7 @@
+<h1>All Companies</h1>
+<p>Find me in app/views/companies/index.html.erb</p>
+<ul>
+  <% @companies.each do |c| %>
+    <li><%= link_to c.name, c %></li>
+  <% end %>
+</ul>
